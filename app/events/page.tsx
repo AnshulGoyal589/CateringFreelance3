@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 import Image from "next/image";
@@ -6,21 +6,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 
-interface EventHomeProps {
-    setPreview?: (value: string) => void; // Optional prop
-}
+const EventHome = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      AOS.init({ duration: 500 });
+    }
+  }, []);
 
-const EventHome: React.FC<EventHomeProps> = ({ setPreview }) => {
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            AOS.init({ duration: 500 });
-        }
-        // Add null check before calling
-        setPreview?.("Services");
-    }, [setPreview]);
-
-    return (
-        <>
+  return (
+    <>
       <Head>
         <title>Premier Catering Services in Delhi - Corporate Events, Weddings & More</title>
         <meta name="description" content="Top-rated catering services in Delhi for corporate events, weddings, birthdays, and social gatherings. Offering customized menus with authentic Indian and international cuisine." />
@@ -134,9 +128,9 @@ const EventHome: React.FC<EventHomeProps> = ({ setPreview }) => {
 
           <article className="birthday" data-aos="fade-up">
             <div className="image-container">
-              <Image 
-                src="https://res.cloudinary.com/das5szw5j/image/upload/a_-90/v1734984546/image_ad3ccr.jpg" 
-                alt="Birthday celebration catering services in Delhi" 
+              <Image
+                src="https://res.cloudinary.com/das5szw5j/image/upload/a_-90/v1734984546/image_ad3ccr.jpg"
+                alt="Birthday celebration catering services in Delhi"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
@@ -196,7 +190,7 @@ const EventHome: React.FC<EventHomeProps> = ({ setPreview }) => {
         </aside>
       </main>
     </>
-    );
+  );
 };
 
 export default EventHome;
