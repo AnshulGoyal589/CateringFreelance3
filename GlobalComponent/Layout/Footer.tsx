@@ -225,7 +225,10 @@ const Footer: React.FC = () => {
               © {new Date().getFullYear()} Savoury Soirée. All rights reserved.
             </div>
             <div className="text-center sm:text-right text-gray-500 text-xs sm:text-sm pt-4 sm:pt-6">
-              Designed & Developed By <a className="font-semibold text-gray-400 hover:text-gray-300 underline underline-offset-2" href="https://portfolio-ymyk.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Anshul Goyal's portfolio">Anshul Goyal</a>
+              Designed & Developed By 
+              <a className="font-semibold text-gray-400 hover:text-gray-300 underline underline-offset-2" href="https://portfolio-ymyk.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Anshul Goyal's portfolio"> Anshul Goyal </a>
+              &
+              <a className="font-semibold text-gray-400 hover:text-gray-300 underline underline-offset-2" href="https://github.com/apophis04" target="_blank" rel="noopener noreferrer" aria-label="Visit Kislay Gautam portfolio"> Kislay Gautam</a>
             </div>
           </div>
         </div>
