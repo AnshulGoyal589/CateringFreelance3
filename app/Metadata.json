@@ -1,0 +1,47 @@
+{
+    "home": {
+      "title": "Best Catering Services | Delicious Food & Events",
+      "description": "Explore our high-quality catering services for weddings, corporate events, and more.",
+      "keywords": ["catering services", "food delivery", "event planning"],
+      "openGraph": {
+        "title": "Best Catering Services | Delicious Food & Events",
+        "description": "Explore our high-quality catering services for weddings, corporate events, and more.",
+        "type": "website"
+      }
+    },
+    "about": {
+      "title": "About Us | Best Catering Service",
+      "description": "Learn more about our premium catering services and how we deliver excellence.",
+      "keywords": ["about catering", "our story", "catering experts"],
+      "openGraph": {
+        "title": "About Us | Best Catering Service",
+        "description": "Learn more about our premium catering services and how we deliver excellence.",
+        "type": "website"
+      }
+    },
+    "card":{
+        "title": "Premium Catering Services in Delhi NCR | The Savoury Soiree",
+        "description": "Experience luxury catering services in Delhi NCR. Specializing in corporate events, weddings, and premium dining experiences with Delhi's finest culinary traditions.",
+        "keywords": ["Delhi catering", "luxury catering Delhi", "corporate catering Delhi NCR", "wedding catering Delhi", "premium catering services"],
+        "alternates": {
+          "canonical": "/delhi-catering-services"
+        },
+        "openGraph": {
+          "title": "Premium Catering Services in Delhi NCR | The Savoury Soiree",
+          "description": "Experience luxury catering services in Delhi NCR. Specializing in corporate events, weddings, and premium dining experiences with Delhi's finest culinary traditions.",
+          "type": "website",
+          "locale": "en_IN"
+        }
+    },
+    "services": {
+  "title": "Professional Catering Services | The Savoury Soiree",
+  "description": "Discover our comprehensive catering services including professional culinary team, event planning, trained staff, equipment rentals, and entertainment solutions.",
+  "keywords": ["catering services", "event catering", "culinary team", "event planning", "catering staff", "equipment rental", "event entertainment"],
+  "openGraph": {
+    "title": "Professional Catering Services | The Savoury Soiree",
+    "description": "Discover our comprehensive catering services including professional culinary team, event planning, trained staff, equipment rentals, and entertainment solutions.",
+    "type": "website",
+    "locale": "en_IN"
+    }}
+  }
+  
