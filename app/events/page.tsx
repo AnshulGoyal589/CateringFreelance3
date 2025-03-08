@@ -7,7 +7,7 @@ import Image from "next/image";
 // import Head from "next/head";
 import { Metadata } from "next";
 import metadataobj from "@/app/Metadata.json";
-export const metadata: Metadata = metadataobj.services;
+export const metadata: Metadata = metadataobj.event;
 
 const EventHome = () => {
   // useEffect(() => {

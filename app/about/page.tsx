@@ -1,13 +1,10 @@
-"use client"
-
-
 import React from 'react';
 import Video from './resources/Video';
 import WhatWeDo from './resources/WhatWeDo';
 import Features from './resources/Feature';
-// import WhatWeDo from '@/components/WhatWeDo';
-// import Video from '@/components/Video';
-// import Features from '@/components/Features';
+import { Metadata } from "next";
+import metadataobj from "@/app/Metadata.json";
+export const metadata: Metadata = metadataobj.about;
 
 const AboutPage = () => {
   // useEffect(() => {
