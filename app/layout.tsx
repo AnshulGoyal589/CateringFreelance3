@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description:
     "Discover Savoury Soiree, a leading catering service provider in Delhi NCR specializing in luxury weddings, corporate events, private parties, and international cuisine. Enjoy customized menus, exceptional service, and unforgettable dining experiences tailored to your event.",
   keywords: [
+    "Savoury Soiree",
     "catering",
     "premium catering",
     "wedding catering",
@@ -31,7 +32,9 @@ export const metadata: Metadata = {
     "luxury events",
     "Delhi NCR catering",
     "private parties",
-    "international cuisine"
+    "international cuisine",
+    "savourysoirée"
+
   ],
   authors: [
     { name: "Savoury Soiree", url: "https://www.savourysoirée.com/about" }
