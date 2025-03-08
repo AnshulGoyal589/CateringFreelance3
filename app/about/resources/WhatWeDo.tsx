@@ -15,17 +15,27 @@ const WhatWeDo: React.FC = () => {
     {
       no: 1,
       heading: "Our Philosophy",
-      text: "Our philosophy is simple: to infuse every occasion with a sense of enchantment through exceptional flavours and unparalleled attention to detail."
+      text: "At The Savoury Soiree, we believe in infusing every occasion with enchantment through exceptional flavors and unparalleled attention to detail. As a leading name in catering for events, we are committed to delivering culinary excellence and making your event truly special."
     },
     {
       no: 2,
       heading: "Our Objectives",
-      text: "At The Savoury Soiree, we don't just cater events—we create cherished memories."
+      text: "We don't just provide catering for events—we create cherished memories with top catering service that delights every guest. Whether it's a wedding, corporate event, birthday, or cultural celebration, our team ensures a flawless dining experience with impeccable service and delicious cuisine."
     },
     {
       no: 3,
       heading: "Our People",
-      text: "Our people are driven by passion and commitment, working together to achieve excellence and make a meaningful impact."
+      text: "Our people are the heart of The Savoury Soiree. Our chefs and hospitality professionals work together to bring you the best catering services in the industry. From crafting signature menus to delivering impeccable service, we ensure that every event is a masterpiece of flavor and elegance."
+    },
+    {
+      no: 4,
+      heading: "Our Goal: Superior Customer Experience",
+      text: "At The Savoury Soiree, our goal is simple—to provide a superior customer experience. As one of the best catering services in India, we are committed to understanding customer needs, ensuring satisfaction, and continuously improving our offerings to exceed expectations."
+    },
+    {
+      no: 5,
+      heading: "Trusted by Esteemed Clients",
+      text: "Our expertise in catering for events has been recognized and trusted by esteemed clients, including the Government of India. We take pride in organizing high-profile events and official gatherings, ensuring the highest standards of quality, professionalism, and excellence."
     }
   ];
 
@@ -70,35 +80,61 @@ const WhatWeDo: React.FC = () => {
           </h1>
           <div className="space-y-4">
             <p className="text-base lg:text-xl text-gray-700 space-y-4">
-              Welcome to <span className="italic inline-block text-[#8B4513] text-lg lg:text-2xl">The Savoury Soiree</span>, 
-              where culinary artistry meets sophisticated elegance. We are purveyors of exceptional catering, 
-              dedicated to transforming your celebrations into unforgettable experiences.
+              Welcome to <span className="italic inline-block text-[#8B4513] text-lg lg:text-2xl">The Savoury Soiree</span>, where culinary artistry meets sophisticated elegance! As one of the best catering services in India, we are dedicated to transforming your celebrations into unforgettable experiences with our premium catering services.
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
-              Whether an intimate soirée, a grand wedding, or a refined corporate affair, 
-              we weave flavour, style, and flair into every detail.
+              Whether it's an intimate soirée, a grand wedding, or a refined corporate affair, we bring flavor, style, and flair to every event. Our wedding caterers and expert chefs cooks bespoke menus designed to your tastes and preferences, ensuring a seamless, memorable experience.
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
-              Our team specializes in creating bespoke menus tailored to your tastes and preferences. 
-              From exquisite appetizers to delectable desserts, every dish is crafted with love and 
-              attention to detail, using only the freshest and finest ingredients.
+              From exquisite appetisers to delectable desserts, every dish is meticulously prepared using the freshest, finest ingredients. Whether you need event catering for a corporate event, engagement, birthday, or social celebration, we offer customised menus to suit every theme and preference.
+            </p>
+            
+            <p className="text-base lg:text-xl text-gray-700 font-semibold">
+              Serving Across India
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
-              Let us take care of the culinary details so you can savor every moment. 
-              Your perfect event starts with a simple call—reach out to us now!
+              We proudly offer premium catering services in:
+            </p>
+            
+            <ul 
+              className="list-none text-base lg:text-lg text-gray-700 pl-8 lg:pl-16 space-y-2"
+              itemProp="description"
+            >
+              <li>✅ Delhi, Gurugram, NCR</li>
+              <li>✅ Mumbai, Pune, and the Northern region</li>
+              <li>✅ Gujarat, Kolkata, and Uttar Pradesh</li>
+              <li>✅ Bangalore and many more.</li>
+            </ul>
+            
+            <p className="text-base lg:text-xl text-gray-700">
+              Let us handle the culinary details, so you can savor every moment. Your perfect event starts with a simple call—contact us now!
+            </p>
+            
+            <p className="text-base lg:text-xl text-gray-700 font-semibold">
+              Why Choose Us?
             </p>
 
             <ul 
               className="list-disc text-base lg:text-lg text-gray-700 pl-8 lg:pl-16 space-y-2"
               itemProp="description"
             >
-              <li>Customized menus to suit every event theme and preference</li>
+              <li>Best catering services across India for all event types</li>
+              <li>Personalised menus designed to match your event theme</li>
               <li>Attention to detail in presentation and service</li>
-              <li>Professional staff ensuring seamless event execution</li>
+              <li>Professional wedding caterers and event specialists</li>
+              <li>Seamless event execution with a trained hospitality team</li>
             </ul>
+            
+            <p className="text-base lg:text-xl text-gray-700">
+              Let's make your next event extraordinary! Book our premium catering services today and experience the finest event catering across India.
+            </p>
+            
+            <p className="text-base lg:text-xl text-gray-700">
+              Experience unparalleled catering services across India—contact us today!
+            </p>
           </div>
         </div>
 
