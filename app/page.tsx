@@ -7,8 +7,8 @@ import CateringEvents from '@/GlobalComponent/CateringEvent';
 import InternationalCatering from '@/GlobalComponent/InternationalCatering';
 
 import { Metadata } from "next";
-import metadata from "@/app/Metadata.json";
-export const homemetadata: Metadata = metadata.home;
+import metadataobj from "@/app/Metadata.json";
+export const metadata: Metadata = metadataobj.home;
 
 function page() {
   return (

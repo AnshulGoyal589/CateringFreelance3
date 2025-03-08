@@ -1,20 +1,20 @@
-"use client";
 
-import { useEffect } from "react";
+
+// import { useEffect } from "react";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 // import Head from "next/head";
 import { Metadata } from "next";
-import metadata from "@/app/Metadata.json";
-export const servicesmetadata: Metadata = metadata.card;
+import metadataobj from "@/app/Metadata.json";
+export const metadata: Metadata = metadataobj.services;
 
 const EventHome = () => {
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      AOS.init({ duration: 500 });
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     AOS.init({ duration: 500 });
+  //   }
+  // }, []);
 
   return (
     <>
