@@ -8,7 +8,9 @@ import Features from './resources/Feature';
 // import WhatWeDo from '@/components/WhatWeDo';
 // import Video from '@/components/Video';
 // import Features from '@/components/Features';
-
+import { Metadata } from "next";
+import metadata from "@/app/Metadata.json";
+export const aboutmetadata: Metadata = metadata.about;
 
 const AboutPage = () => {
   // useEffect(() => {

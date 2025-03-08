@@ -59,7 +59,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Contact Savoury Soiree | Get in Touch with Our Catering Team</title>
         <meta name="description" content="Contact Savoury Soiree catering services for inquiries, bookings, and more. Our team is ready to help with your event catering needs in New Delhi." />
         <meta name="keywords" content="catering contact, event catering, Savoury Soiree, Delhi catering, food service contact" />
@@ -68,7 +68,7 @@ const ContactPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://savourysoiree.com/contact" />
         <link rel="canonical" href="https://savourysoiree.com/contact" />
-      </Head>
+      </Head> */}
 
       <div className="bg-[#ecece2] min-h-screen">
         <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">

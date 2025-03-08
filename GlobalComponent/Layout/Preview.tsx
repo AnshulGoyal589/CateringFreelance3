@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 const getPageTitle = (pathname: string) => {
   const pathMap: { [key: string]: string } = {
     "/": "Home",
-    "/events": "Events",
-    "/about": "About",
-    "/contact": "Contact",
+    "/events": "Services",
+    "/about": "About Us",
+    "/contact": "Contact Us",
     "/services": "Services"
   };
 
@@ -24,7 +24,7 @@ const Preview: React.FC = () => {
     <div 
       className="preview" 
       style={{
-        backgroundImage: `url(/images/${pageTitle.replace(/\s+/g, '').toLowerCase()}.png)`
+        backgroundImage: `url(/${pageTitle.replace(/\s+/g, '').toLowerCase()}.png)`
       }}
     >
       {/* <p>
@@ -32,7 +32,7 @@ const Preview: React.FC = () => {
         {pageTitle !== "Contact" && pageTitle !== "About" ? "/ Services" : null}
         {pageTitle !== "Services" ? `/ ${pageTitle}` : null}
       </p> */}
-      <p >{pageTitle}</p>
+      <p className="text-4xl">____{pageTitle}__</p>
     </div>
   );
 };

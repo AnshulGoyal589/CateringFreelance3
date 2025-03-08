@@ -4,7 +4,10 @@ import { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Head from "next/head";
+// import Head from "next/head";
+import { Metadata } from "next";
+import metadata from "@/app/Metadata.json";
+export const servicesmetadata: Metadata = metadata.card;
 
 const EventHome = () => {
   useEffect(() => {
@@ -15,7 +18,7 @@ const EventHome = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Premier Catering Services in Delhi - Corporate Events, Weddings & More</title>
         <meta name="description" content="Top-rated catering services in Delhi for corporate events, weddings, birthdays, and social gatherings. Offering customized menus with authentic Indian and international cuisine." />
         <meta name="keywords" content="delhi catering, corporate catering delhi, wedding catering services, birthday party catering, event catering delhi, international cuisine delhi" />
@@ -56,7 +59,7 @@ const EventHome = () => {
             })
           }}
         />
-      </Head>
+      </Head> */}
 
       <main className="event-container">
         <h1 className="sr-only">Premier Catering Services in Delhi</h1>
@@ -64,7 +67,7 @@ const EventHome = () => {
           <article
             className="corporate-event"
             style={{
-              backgroundImage: `url("https://res.cloudinary.com/das5szw5j/image/upload/v1734984113/image_ocmsuo.jpg")`,
+              backgroundImage: `url("/corporate_event.jpg")`,
               backgroundSize: '65% 100%',
             }}
             data-aos="fade-up"
@@ -86,7 +89,7 @@ const EventHome = () => {
 
           <article
             className="social-event"
-            style={{ backgroundImage: `url(https://res.cloudinary.com/das5szw5j/image/upload/v1734984288/image_vbv5ns.jpg)` }}
+            style={{ backgroundImage: `url("/social_event.jpeg")` }}
             data-aos="fade-up"
           >
             <div className="circle">
@@ -101,7 +104,7 @@ const EventHome = () => {
             <div
               className="img-backdrop"
               style={{
-                backgroundImage: `url(https://res.cloudinary.com/das5szw5j/image/upload/a_-90/v1734984480/image_lwboch.jpg)`,
+                backgroundImage: `url("/international_event.jpg")`,
                 backgroundSize: "120% 100%"
               }}
             >
@@ -116,7 +119,7 @@ const EventHome = () => {
 
           <article
             className="engagement"
-            style={{ backgroundImage: `url(https://res.cloudinary.com/das5szw5j/image/upload/v1734984212/image_hsjmoo.jpg)` }}
+            style={{ backgroundImage: `url("/engagement.jpg")` }}
             data-aos="fade-up"
           >
             <div className="simple">
@@ -130,10 +133,12 @@ const EventHome = () => {
           <article className="birthday" data-aos="fade-up">
             <div className="image-container">
               <Image
-                src="https://res.cloudinary.com/das5szw5j/image/upload/a_-90/v1734984546/image_ad3ccr.jpg"
+                src="/birthday.jpg"
                 alt="Birthday celebration catering services in Delhi"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
+                // fill
+                // sizes="(max-width: 768px) 100%, 50%"
+                width="100"
+                height="100"
                 className="object-cover"
                 priority
               />
@@ -165,7 +170,7 @@ const EventHome = () => {
         <aside className="on-your-right">
           <div
             className="quick-links"
-            style={{ backgroundImage: `url("/assets/events/Table.png")` }}
+            style={{ backgroundImage: `url("/Table.png")` }}
             data-aos="fade-up"
           >
             <div className="inner-content">
@@ -178,16 +183,16 @@ const EventHome = () => {
           </div>
           <div
             className="quick-links"
-            style={{ backgroundImage: `url(https://res.cloudinary.com/das5szw5j/image/upload/a_90/a_vflip/v1734984159/image_gfzag8.jpg)` }}
+            style={{ backgroundImage: `url(/wedding.jpg)` }}
             data-aos="fade-up"
           >
+            <h2 className="text-white text-5xl text-bold">Weddings</h2>
             <p>
               Expert wedding catering in Delhi NCR, delivering exceptional culinary experiences for your special day.
               <span>
                 From traditional Indian cuisine to international delicacies, we create perfect wedding feasts.
               </span>
             </p>
-            <h2>Weddings</h2>
           </div>
         </aside>
       </main>
