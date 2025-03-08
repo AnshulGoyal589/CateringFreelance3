@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   
   // Primary SEO Tags
   title:
-    "Savoury Soiree: Premium Catering Services in Delhi NCR | Luxury Weddings, Corporate & Private Events",
+    "Savoury Soirée: Premium Catering Services in Delhi NCR | Luxury Weddings, Corporate & Private Events",
   description:
-    "Discover Savoury Soiree, a leading catering service provider in Delhi NCR specializing in luxury weddings, corporate events, private parties, and international cuisine. Enjoy customized menus, exceptional service, and unforgettable dining experiences tailored to your event.",
+    "Discover Savoury Soirée, a leading catering service provider in Delhi NCR specializing in luxury weddings, corporate events, private parties, and international cuisine. Enjoy customized menus, exceptional service, and unforgettable dining experiences tailored to your event.",
   keywords: [
     "Savoury Soiree",
     "catering",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   authors: [
     { name: "Savoury Soiree", url: "https://www.savourysoirée.com/about" }
   ],
-  applicationName: "Savoury Soiree",
+  applicationName: "Savoury Soirée",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     url: "https://www.savourysoirée.com/",
     type: "website",
     locale: "en_US",
-    siteName: "Savoury Soiree",
+    siteName: "Savoury Soirée",
     images: [
       {
         url: "/Logo.png",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   // Twitter Card Tags for enhanced Twitter sharing
   twitter: {
     card: "summary_large_image",
-    title: "Savoury Soiree: Premium Catering Services in Delhi NCR",
+    title: "Savoury Soirée: Premium Catering Services in Delhi NCR",
     description:
       "Luxury weddings, corporate events, and private parties catered with excellence. Discover our tailored menus and top-notch service.",
     site: "@savorysoiree",    // Replace with your Twitter username
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     "rating": "general",
     "revisit-after": "7 days",
     "og:image:alt": "Premium Catering Service by Savoury Soiree",
-    "og:site_name": "Savoury Soiree",
+    "og:site_name": "Savoury Soirée",
     "geo.region": "IN-DL",
     "geo.placename": "Delhi",
     "geo.position": "28.6139;77.2090",
