@@ -84,7 +84,7 @@ const WhatWeDo: React.FC = () => {
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
-              Whether it's an intimate soirée, a grand wedding, or a refined corporate affair, we bring flavor, style, and flair to every event. Our wedding caterers and expert chefs cooks bespoke menus designed to your tastes and preferences, ensuring a seamless, memorable experience.
+              Whether it&apos;s an intimate soirée, a grand wedding, or a refined corporate affair, we bring flavor, style, and flair to every event. Our wedding caterers and expert chefs cooks bespoke menus designed to your tastes and preferences, ensuring a seamless, memorable experience.
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
@@ -129,7 +129,7 @@ const WhatWeDo: React.FC = () => {
             </ul>
             
             <p className="text-base lg:text-xl text-gray-700">
-              Let's make your next event extraordinary! Book our premium catering services today and experience the finest event catering across India.
+              Let&apos;s make your next event extraordinary! Book our premium catering services today and experience the finest event catering across India.
             </p>
             
             <p className="text-base lg:text-xl text-gray-700">
