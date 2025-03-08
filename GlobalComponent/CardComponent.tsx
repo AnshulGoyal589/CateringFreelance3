@@ -40,11 +40,11 @@ const CardComponent: React.FC<CardComponentProps> = ({ slidesData }) => {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
-            Premium Catering Services in Delhi NCR
+            Premium Catering Service for Unforgettable Events
           </h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Elevating Delhi's culinary excellence with bespoke catering solutions.
-          </p>
+          <h2 className="text-gray-600 max-w-2xl mx-auto">
+            Luxury catering solution for corporate event and wedding
+          </h2>
         </header>
 
         <Swiper

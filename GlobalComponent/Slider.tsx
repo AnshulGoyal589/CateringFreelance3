@@ -18,14 +18,14 @@ const slidesData: SlideData[] = [
   },
   {
     image: "https://img.freepik.com/premium-photo/contemporary-hotel-dining-area-featuring-sleek-buffet-setup-stylish-seating-arrangement_355018-11820.jpg?w=1060",
-    heading: "Best Wedding Caterers in Delhi",
+    heading: "Best Wedding Caterers in India",
     subheading: "Crafting Memorable Celebrations with Exquisite Cuisines",
     alt: "Elegant wedding catering setup in Delhi",
   },
   {
     image: "https://img.freepik.com/premium-photo/festive-iftar-gathering-soft-lantern-lights-with-delicious-appetizers-drinks_1160244-4718.jpg?w=1060",
-    heading: "Top Corporate Event Catering in Delhi",
-    subheading: "Professional Catering Services for Business Functions",
+    heading: "Catering service for all events",
+    subheading: "Professional Catering Services for Business Functions and Events",
     alt: "Corporate event catering arrangement in Delhi",
   },
 ];

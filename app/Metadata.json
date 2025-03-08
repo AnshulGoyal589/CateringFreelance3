@@ -1,6 +1,6 @@
 {
     "home": {
-      "title": "Best Catering Services | Delicious Food & Events",
+      "title": "Savoury Soiree | Best Catering Service for Events & Weddings",
       "description": "Explore our high-quality catering services for weddings, corporate events, and more.",
       "keywords": ["catering services", "food delivery", "event planning"],
       "openGraph": {
@@ -10,7 +10,7 @@
       }
     },
     "about": {
-      "title": "About Us | Best Catering Service",
+      "title": "About Savoury Soiree | Food Catering Service",
       "description": "Learn more about our premium catering services and how we deliver excellence.",
       "keywords": ["about catering", "our story", "catering experts"],
       "openGraph": {
@@ -34,14 +34,14 @@
         }
     },
     "services": {
-  "title": "Professional Catering Services | The Savoury Soiree",
-  "description": "Discover our comprehensive catering services including professional culinary team, event planning, trained staff, equipment rentals, and entertainment solutions.",
-  "keywords": ["catering services", "event catering", "culinary team", "event planning", "catering staff", "equipment rental", "event entertainment"],
-  "openGraph": {
-    "title": "Professional Catering Services | The Savoury Soiree",
+    "title": "Premium Catering Services | Weddings, Corporate Events & Parties",
     "description": "Discover our comprehensive catering services including professional culinary team, event planning, trained staff, equipment rentals, and entertainment solutions.",
-    "type": "website",
-    "locale": "en_IN"
-    }}
+    "keywords": ["catering services", "event catering", "culinary team", "event planning", "catering staff", "equipment rental", "event entertainment"],
+    "openGraph": {
+      "title": "Professional Catering Services | The Savoury Soiree",
+      "description": "Discover our comprehensive catering services including professional culinary team, event planning, trained staff, equipment rentals, and entertainment solutions.",
+      "type": "website",
+      "locale": "en_IN"
+      }}
   }
   
