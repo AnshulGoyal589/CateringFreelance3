@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     "geo.placename": "Delhi",
     "geo.position": "28.6139;77.2090",
     "ICBM": "28.6139, 77.2090",
-    "google-site-verification": "your-google-site-verification-code"
+    // "google-site-verification": "your-google-site-verification-code"
   }
 };
 
