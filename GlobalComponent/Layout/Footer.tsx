@@ -17,10 +17,10 @@ interface SocialIcon {
 
 const Footer: React.FC = () => {
   const socialIcons: SocialIcon[] = [
-    { Icon: Facebook, label: 'Facebook', link: 'https://facebook.com' },
-    { Icon: Instagram, label: 'Instagram', link: 'https://instagram.com' },
-    { Icon: Twitter, label: 'Twitter', link: 'https://twitter.com' },
-    { Icon: Linkedin, label: 'LinkedIn', link: 'https://linkedin.com' }
+    // { Icon: Facebook, label: 'Facebook', link: 'https://facebook.com' },
+    { Icon: Instagram, label: 'Instagram', link: 'https://www.instagram.com/thesavourysoiree?igsh=MWgyY2xkd2loZ2Fkbw%3D%3D&utm_source=qr' },
+    // { Icon: Twitter, label: 'Twitter', link: 'https://twitter.com' },
+    // { Icon: Linkedin, label: 'LinkedIn', link: 'https://linkedin.com' }
   ];
 
   const quickLinks: QuickLink[] = [
