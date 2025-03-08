@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
           <Link href="/" className="flex items-center space-x-4 group" aria-label="Savoury Soirée - Home">
             <div className="w-24 h-16 overflow-hidden flex items-center justify-center">
               <Image 
-                src="/images/logo.png" 
+                src="/Logo.png" 
                 alt="Savoury Soirée Logo"
-                width={100}
-                height={65}
+                width={252}
+                height={94}
                 className="object-contain transition-transform duration-300 group-hover:scale-105"
                 priority
               />

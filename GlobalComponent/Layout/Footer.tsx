@@ -59,10 +59,10 @@ const Footer: React.FC = () => {
             <div className="flex items-center flex-col mb-6">
               <Link href="/" aria-label="Savoury Soiree Home">
                 <Image
-                  src="/assets/Logo.png"
+                  src="/Logo.png"
                   alt="Savoury Soiree Logo"
-                  width={96}
-                  height={96}
+                  width={252}
+                  height={94}
                   className="h-16 sm:h-24 mb-4 hover:opacity-90 transition-opacity"
                   priority
                 />
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4 w-full p-4 lg:p-0 rounded-xl lg:rounded-none shadow-lg lg:shadow-none bg-black/20 lg:bg-transparent">
               <div className="flex items-start space-x-4 text-gray-400 group hover:text-gray-300 transition-colors justify-center lg:justify-start">
                 <Image 
-                  src="/assets/header/FooterLocation.png" 
+                  src="/FooterLocation.png" 
                   alt="Location icon" 
                   width={20}
                   height={20}
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
                 aria-label="Email address"
               >
                 <Image 
-                  src="/assets/header/FooterMail.png" 
+                  src="/FooterMail.png" 
                   alt="Email icon" 
                   width={20}
                   height={20}
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
                 aria-label="Phone number"
               >
                 <Image 
-                  src="/assets/header/CallIcon.png" 
+                  src="/CallIcon.png" 
                   alt="Phone icon" 
                   width={20}
                   height={20}
