@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // Base URL for all relative URLs in metadata
+  // Base URL for resolving relative URLs in metadata
   metadataBase: new URL("https://www.savourysoirée.com/"),
   
   // Primary SEO Tags
@@ -38,6 +38,7 @@ export const metadata: Metadata = {
   ],
   applicationName: "Savoury Soiree",
   generator: "Next.js",
+  referrer: "origin-when-cross-origin",
 
   // OpenGraph Tags for social sharing (e.g., Facebook, LinkedIn)
   openGraph: {
@@ -46,6 +47,8 @@ export const metadata: Metadata = {
       "Experience exceptional catering for luxury weddings, corporate events, and private parties with Savoury Soiree. Tailored menus and top-notch service for an unforgettable event.",
     url: "https://www.savourysoirée.com/",
     type: "website",
+    locale: "en_US",
+    siteName: "Savoury Soiree",
     images: [
       {
         url: "/Logo.png",
@@ -62,6 +65,8 @@ export const metadata: Metadata = {
     title: "Savoury Soiree: Premium Catering Services in Delhi NCR",
     description:
       "Luxury weddings, corporate events, and private parties catered with excellence. Discover our tailored menus and top-notch service.",
+    site: "@savorysoiree",    // Replace with your Twitter username
+    creator: "@savorysoiree", // Replace with your Twitter handle
     images: ["/Logo.png"]
   },
 
@@ -78,18 +83,51 @@ export const metadata: Metadata = {
     }
   },
 
+  // Alternate URLs for multi-language or regional versions
+  alternates: {
+    canonical: "https://www.savourysoirée.com/",
+    languages: {
+      "en-US": "https://www.savourysoirée.com/",
+      "hi-IN": "https://www.savourysoirée.com/hi"
+    }
+  },
+
   // Icons and manifest for progressive web app (PWA) support and favicon setup
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png"
   },
-  manifest: "/manifest.json",
+  manifest: "/Metadata.json",
+
+  // Theme colors for light/dark mode preferences
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" }
+  ],
 
   // Viewport settings for responsive design
-  viewport: "width=device-width, initial-scale=1"
-};
+  viewport: "width=device-width, initial-scale=1",
 
+  // Additional Meta Tags for broader audience targeting
+  other: {
+    "msapplication-TileColor": "#ffffff",
+    "msapplication-TileImage": "/mstile-144x144.png",
+    "apple-mobile-web-app-title": "Savoury Soiree",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "distribution": "global",
+    "rating": "general",
+    "revisit-after": "7 days",
+    "og:image:alt": "Premium Catering Service by Savoury Soiree",
+    "og:site_name": "Savoury Soiree",
+    "geo.region": "IN-DL",
+    "geo.placename": "Delhi",
+    "geo.position": "28.6139;77.2090",
+    "ICBM": "28.6139, 77.2090",
+    "google-site-verification": "your-google-site-verification-code"
+  }
+};
 
 export default function RootLayout({
   children,
@@ -98,13 +136,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="max-w-screen overflow-x-hidden min-h-screen flex flex-col font-inter bg-[#ecece2]">
-        <Header />
-        {children}
-        <Footer />
+          <Header />
+          {children}
+          <Footer />
         </div>
       </body>
     </html>
