@@ -1,6 +1,8 @@
 import React from "react";
 import ClientWrapper from "@/app/utils/ClientWrapper"; // Import the client component
-
+import img1 from "../public/homeSlider_img1.jpg"
+import img2 from "../public/homeSlider_img2.jpg"
+import img3 from "../public/homeSlider_img3.jpg"
 interface SlideData {
   image: string;
   heading: string;
@@ -11,19 +13,19 @@ interface SlideData {
 // Static slides for SEO-friendly rendering
 const slidesData: SlideData[] = [
   {
-    image: "https://img.freepik.com/premium-psd/abundant-buffet-table-with-various-dishes-including-pasta-seafood-salad-roasted-vegetables-bread_296091-32866.jpg",
+    image: img1.src,
     heading: "Premier Catering Services in Delhi NCR",
     subheading: "Luxury Catering Solutions for Corporate Events & Weddings",
     alt: "Luxury catering spread in Delhi featuring international cuisine",
   },
   {
-    image: "https://img.freepik.com/premium-photo/contemporary-hotel-dining-area-featuring-sleek-buffet-setup-stylish-seating-arrangement_355018-11820.jpg?w=1060",
+    image: img2.src,
     heading: "Best Wedding Caterers in India",
     subheading: "Crafting Memorable Celebrations with Exquisite Cuisines",
     alt: "Elegant wedding catering setup in Delhi",
   },
   {
-    image: "https://img.freepik.com/premium-photo/festive-iftar-gathering-soft-lantern-lights-with-delicious-appetizers-drinks_1160244-4718.jpg?w=1060",
+    image: img3.src,
     heading: "Catering service for all events",
     subheading: "Professional Catering Services for Business Functions and Events",
     alt: "Corporate event catering arrangement in Delhi",
