@@ -74,9 +74,10 @@ const EventHome = () => {
               <h2>Corporate Events</h2>
               <div className="description">
                 <p>
-                  We provide premium corporate catering services in Delhi NCR, specializing in conferences, team meetings, and corporate parties.
+                We are the best corporate caterer in India, specialising in conferences, team meetings, and corporate parties.
                   <span>
-                    Our expert chefs craft high-quality, diverse menus that accommodate various dietary preferences and ensure a seamless experience.
+                  Our expert chefs craft high-quality, diverse menus that accommodate various dietary preferences, ensuring a seamless experience nationwide.
+
                   </span>
                 </p>
               </div>
@@ -91,7 +92,7 @@ const EventHome = () => {
             <div className="circle">
               <h2>Social Gatherings</h2>
               <p>
-                Experience Delhi&apos;s finest social gathering catering services, offering customized menus that foster connection and celebration with authentic local and international cuisines.
+                Experience India&apos;s finest social gathering catering services, offering customized menus that foster connection and celebration with authentic local and international cuisines.
               </p>
             </div>
           </article>
@@ -108,7 +109,7 @@ const EventHome = () => {
             </div>
             <div className="title">
               <p>
-                Delhi&apos;s premier international convention catering service, offering diverse, authentic global cuisines that cater to multinational tastes and preferences.
+                India&apos;s premier international convention catering service, offering diverse, authentic global cuisines that cater to multinational tastes and preferences.
               </p>
             </div>
           </article>
@@ -121,7 +122,7 @@ const EventHome = () => {
             <div className="simple">
               <h2>Engagement Ceremonies</h2>
               <p>
-                Exclusive engagement ceremony catering in Delhi, featuring elegant menus that blend traditional Indian flavors with contemporary cuisine.
+                Exclusive engagement ceremony catering across India, featuring elegant menus that blend traditional Indian flavors with contemporary cuisine.
               </p>
             </div>
           </article>
@@ -142,7 +143,7 @@ const EventHome = () => {
             </div>
             <div className="color-line"></div>
             <div className="description">
-              Premium birthday party catering services in Delhi NCR, creating memorable celebrations with custom menus and themed food presentations.
+            From traditional Indian cuisine to international delicacies, we create perfect feasts.
             </div>
           </article>
 
@@ -154,7 +155,7 @@ const EventHome = () => {
             <p>
               Delhi&apos;s leading wedding catering service, specializing in creating unforgettable culinary experiences with bespoke menus.
               <span>
-                From elegant cocktail receptions to grand wedding feasts, our expert team ensures perfection in every detail.
+              Expert wedding catering across India, delivering exceptional culinary experiences for your special day.
               </span>
             </p>
             <h2>Weddings</h2>
@@ -170,7 +171,8 @@ const EventHome = () => {
             <div className="inner-content">
               <h2>Event Domains</h2>
               <p>
-                Comprehensive catering services in Delhi for all event types - corporate functions, weddings, parties, and cultural celebrations.
+              Catering services across India for all event types – Small functions, weddings, parties, and cultural celebrations.
+
               </p>
             </div>
           </div>
