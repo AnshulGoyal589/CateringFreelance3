@@ -38,8 +38,8 @@ function page() {
           </a>
         </div>
 
-        <div className="swiper-button-next !text-white hover:text-[#f1a986] transition-colors duration-300"></div>
-        <div className="swiper-button-prev !text-white hover:text-[#f1a986] transition-colors duration-300"></div>
+        {/* <div className="swiper-button-next !text-white hover:text-[#f1a986] transition-colors duration-300"></div>
+        <div className="swiper-button-prev !text-white hover:text-[#f1a986] transition-colors duration-300"></div> */}
 
 
         <main>
