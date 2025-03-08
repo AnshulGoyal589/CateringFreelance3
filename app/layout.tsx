@@ -83,15 +83,6 @@ export const metadata: Metadata = {
     }
   },
 
-  // Alternate URLs for multi-language or regional versions
-  alternates: {
-    canonical: "https://www.savourysoirée.com/",
-    languages: {
-      "en-US": "https://www.savourysoirée.com/",
-      "hi-IN": "https://www.savourysoirée.com/hi"
-    }
-  },
-
   // Icons and manifest for progressive web app (PWA) support and favicon setup
   icons: {
     icon: "/favicon.ico",
@@ -99,12 +90,6 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png"
   },
   manifest: "/Metadata.json",
-
-  // Theme colors for light/dark mode preferences
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#000000" }
-  ],
 
   // Viewport settings for responsive design
   viewport: "width=device-width, initial-scale=1",
