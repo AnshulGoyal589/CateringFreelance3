@@ -14,8 +14,8 @@ interface SlideData {
 const slidesData: SlideData[] = [
   {
     image: img1.src,
-    heading: "Premier Catering Services in Delhi NCR",
-    subheading: "Luxury Catering Solutions for Corporate Events & Weddings",
+    heading: "Premium Catering Service for Unforgettable Events",
+    subheading: "Luxury catering solution for corporate event and wedding",
     alt: "Luxury catering spread in Delhi featuring international cuisine",
   },
   {
