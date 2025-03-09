@@ -23,14 +23,14 @@ function page() {
           style={{ position: "absolute", top: "69%", zIndex: "5", width: "100%" }}
         >
           <a
-            href="/about"
+            href="/about-us"
             className="px-8 py-3 text-lg font-medium bg-[#f1a986] text-white border-2 border-[#f1a986] hover:bg-transparent hover:text-white transition-all duration-300 rounded-md w-52 sm:w-auto text-center"
             aria-label="Learn more about our catering services"
           >
             Discover More
           </a>
           <a
-            href="/contact"
+            href="/contact-us"
             className="px-8 py-3 text-lg font-medium bg-white text-[#f1a986] border-2 border-white hover:bg-transparent hover:text-white transition-all duration-300 rounded-md w-52 sm:w-auto text-center"
             aria-label="Contact us to plan your event"
           >
