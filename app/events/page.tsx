@@ -67,8 +67,8 @@ const EventHome = () => {
           <article
             className="corporate-event"
             style={{
-              backgroundImage: `url("/corporate_event.jpg")`,
-              backgroundSize: '65% 100%',
+              backgroundImage: `url("/eventPage/corporate.webp")`,
+              backgroundSize: '45% 100%',
             }}
             data-aos="fade-up"
           >
@@ -89,7 +89,10 @@ const EventHome = () => {
 
           <article
             className="social-event"
-            style={{ backgroundImage: `url("/social_event.jpeg")` }}
+            style={{ 
+              backgroundImage: `url("/eventPage/social-gathering.webp")`,
+              backgroundSize: '150% 100%',
+             }}
             data-aos="fade-up"
           >
             <div className="circle">
@@ -104,7 +107,7 @@ const EventHome = () => {
             <div
               className="img-backdrop"
               style={{
-                backgroundImage: `url("/international_event.jpg")`,
+                backgroundImage: `url("/eventPage/international_event.jpg")`,
                 backgroundSize: "120% 100%"
               }}
             >
@@ -119,7 +122,7 @@ const EventHome = () => {
 
           <article
             className="engagement"
-            style={{ backgroundImage: `url("/engagement.jpg")` }}
+            style={{ backgroundImage: `url("/eventPage/wedding-catering.webp")` }}
             data-aos="fade-up"
           >
             <div className="simple">
@@ -133,7 +136,7 @@ const EventHome = () => {
           <article className="birthday" data-aos="fade-up">
             <div className="image-container">
               <Image
-                src="/birthday.jpg"
+                src="/eventPage/birthday.jpg"
                 alt="Birthday celebration catering services in Delhi"
                 // fill
                 // sizes="(max-width: 768px) 100%, 50%"
@@ -170,7 +173,11 @@ const EventHome = () => {
         <aside className="on-your-right">
           <div
             className="quick-links"
-            style={{ backgroundImage: `url("/Table.png")` }}
+            style={{ 
+              backgroundImage: `url("/eventPage/event-domain.webp")`,
+              backgroundSize: "125% 100%",
+              backgroundPosition: "center"
+            }}
             data-aos="fade-up"
           >
             <div className="inner-content">
@@ -183,7 +190,10 @@ const EventHome = () => {
           </div>
           <div
             className="quick-links"
-            style={{ backgroundImage: `url(/wedding.jpg)` }}
+            style={{ 
+              backgroundImage: `url(/eventPage/wedding-section.webp)` ,
+              backgroundSize: "150% 100%"
+            }}
             data-aos="fade-up"
           >
             <h2 className="text-white text-5xl text-bold">Weddings</h2>
