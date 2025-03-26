@@ -2,11 +2,11 @@ import React from 'react';
 import type { Metadata } from 'next';
 import EventCard from '@/GlobalComponent/ClientComponent/CateringEventCard';
 // import EventCard from './EventCard';
-import catering_event_image_1 from "../public/catering_event_image_1.jpg"
-import catering_event_image_2 from "../public/catering_event_image_2.jpg"
-import catering_event_image_3 from "../public/catering_event_image_3.jpg"
-import catering_event_image_4 from "../public/catering_event_image_4.jpg"
-import catering_event_image_5 from "../public/catering_event_image_5.jpg"
+import catering_event_image_1 from "../public/homePage/premier-1.webp"
+import catering_event_image_2 from "../public/homePage/premier-2.webp"
+import catering_event_image_3 from "../public/homePage/premier-3.webp"
+import catering_event_image_4 from "../public/homePage/premier-4.webp"
+import catering_event_image_5 from "../public/homePage/premier-5.webp"
 
 
 interface EventData {

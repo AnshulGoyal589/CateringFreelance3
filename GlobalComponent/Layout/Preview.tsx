@@ -17,6 +17,11 @@ const getPageTitle = (pathname: string) => {
 const Preview: React.FC = () => {
   const pathname = usePathname();
   const pageTitle = getPageTitle(pathname);
+  const images: { [key : string] : string } = {
+    "About Us" : "/topBanner/aboutUs.jpg",
+    "Contact Us" : "/topBanner/contactUs.webp",
+    "Services" : "/topBanner/services.jpg"
+  }
 
   if (pageTitle === "Home") return null;
 
@@ -26,6 +31,12 @@ const Preview: React.FC = () => {
       style={{
         backgroundImage: `url(/${pageTitle.replace(/\s+/g, '').toLowerCase()}.png)`
       }}
+      // style={{ 
+      //   backgroundImage: `url(${images[pageTitle]})`,
+      //   backgroundSize: 'contain',
+      //   backgroundRepeat: 'no-repeat',
+      //   backgroundPosition: 'center',
+      // }}
     >
       {/* <p>
         Home 

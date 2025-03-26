@@ -1,26 +1,26 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import movie_image_1 from "../public/movie_image_1.jpeg";
-import movie_image_2 from "../public/movie_image_2.jpeg";
-import movie_image_3 from "../public/movie_image_3.jpeg";
-import movie_image_4 from "../public/movie_image_4.jpeg";
-import movie_image_5 from "../public/movie_image_5.jpeg";
-import movie_image_6 from "../public/movie_image_6.jpeg";
-import movie_image_7 from "../public/movie_image_7.jpeg";
-import movie_image_8 from "../public/movie_image_8.jpeg";
-import movie_image_9 from "../public/movie_image_9.jpeg";
-import movie_image_10 from "../public/movie_image_10.jpeg";
-import movie_image_11 from "../public/movie_image_11.jpeg";
-import movie_image_12 from "../public/movie_image_12.jpeg";
-import movie_image_13 from "../public/movie_image_13.jpeg";
-import movie_image_14 from "../public/movie_image_14.jpeg";
-import movie_image_15 from "../public/movie_image_15.jpg";
-import movie_image_16 from "../public/movie_image_16.jpeg";
-import movie_image_17 from "../public/movie_image_17.jpeg";
-import movie_image_18 from "../public/movie_image_18.jpeg";
-import movie_image_19 from "../public/movie_image_19.jpeg";
-import movie_image_20 from "../public/movie_image_20.jpeg";
+import movie_image_1 from "../public/movie/movie_image_1.jpeg";
+import movie_image_2 from "../public/movie/movie_image_2.jpeg";
+import movie_image_3 from "../public/movie/movie_image_3.jpeg";
+import movie_image_4 from "../public/movie/movie_image_4.jpeg";
+import movie_image_5 from "../public/movie/movie_image_5.jpeg";
+import movie_image_6 from "../public/movie/movie_image_6.jpeg";
+import movie_image_7 from "../public/movie/movie_image_7.jpeg";
+import movie_image_8 from "../public/movie/movie_image_8.jpeg";
+import movie_image_9 from "../public/movie/movie_image_9.jpeg";
+import movie_image_10 from "../public/movie/movie_image_10.jpeg";
+import movie_image_11 from "../public/movie/movie_image_11.jpeg";
+import movie_image_12 from "../public/movie/movie_image_12.jpeg";
+import movie_image_13 from "../public/movie/movie_image_13.jpeg";
+import movie_image_14 from "../public/movie/movie_image_14.jpeg";
+import movie_image_15 from "../public/movie/movie_image_15.jpg";
+import movie_image_16 from "../public/movie/movie_image_16.jpeg";
+import movie_image_17 from "../public/movie/movie_image_17.jpeg";
+import movie_image_18 from "../public/movie/movie_image_18.jpeg";
+import movie_image_19 from "../public/movie/movie_image_19.jpeg";
+import movie_image_20 from "../public/movie/movie_image_20.jpeg";
 
 const films = [
   { name: "Bhool Bhulaiya 2", poster: movie_image_1 },
@@ -107,6 +107,7 @@ const FilmList = () => {
                   style={{ 
                     backgroundImage: `url(${film.poster.src})`,
                   }}
+                  aria-label={`${film.name}`}
                 >
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-opacity duration-300 rounded-lg" />
                   <p className="text-white font-semibold text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute inset-0 flex items-center justify-center p-4">

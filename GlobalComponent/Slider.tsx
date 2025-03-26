@@ -1,8 +1,8 @@
 import React from "react";
 import ClientWrapper from "@/app/utils/ClientWrapper"; // Import the client component
-import img1 from "../public/homeSlider_img1.jpg"
-import img2 from "../public/homeSlider_img2.jpg"
-import img3 from "../public/homeSlider_img3.jpg"
+import img1 from "../public/homePage/homeSlider_img1.jpg"
+import img2 from "../public/homePage/homeSlider_img2.jpg"
+import img3 from "../public/homePage/homeSlider_img3.jpg"
 interface SlideData {
   image: string;
   heading: string;
