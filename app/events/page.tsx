@@ -8,6 +8,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 import metadataobj from "@/app/Metadata.json";
 export const metadata: Metadata = metadataobj.event;
+import defaultViewport from "@/GlobalComponent/viewportConfig";
+export const viewport = defaultViewport;
 
 const EventHome = () => {
   // useEffect(() => {

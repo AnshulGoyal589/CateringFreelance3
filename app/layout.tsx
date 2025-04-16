@@ -95,7 +95,7 @@ export const metadata: Metadata = {
   manifest: "/Metadata.json",
 
   // Viewport settings for responsive design
-  viewport: "width=device-width, initial-scale=1",
+  // viewport: "width=device-width, initial-scale=1",
 
   // Additional Meta Tags for broader audience targeting
   other: {

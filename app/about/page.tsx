@@ -5,6 +5,8 @@ import Features from './resources/Feature';
 import { Metadata } from "next";
 import metadataobj from "@/app/Metadata.json";
 export const metadata: Metadata = metadataobj.about;
+import defaultViewport from "@/GlobalComponent/viewportConfig";
+export const viewport = defaultViewport;
 
 const AboutPage = () => {
   // useEffect(() => {

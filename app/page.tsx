@@ -9,6 +9,8 @@ import InternationalCatering from '@/GlobalComponent/InternationalCatering';
 import { Metadata } from "next";
 import metadataobj from "@/app/Metadata.json";
 export const metadata: Metadata = metadataobj.home;
+import defaultViewport from "@/GlobalComponent/viewportConfig";
+export const viewport = defaultViewport;
 
 function page() {
   return (

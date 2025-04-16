@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.xn--savourysoire-leb.com
+
+# Sitemaps
+Sitemap: https://www.xn--savourysoire-leb.com/sitemap.xml
