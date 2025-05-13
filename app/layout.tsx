@@ -7,127 +7,162 @@ import Footer from "@/GlobalComponent/Layout/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  // Base URL for resolving relative URLs in metadata
   metadataBase: new URL("https://www.savourysoirée.com/"),
-  
-  // Primary SEO Tags
-  title:
-    "Savoury Soirée: Premium Catering Services in Delhi NCR | Luxury Weddings, Corporate & Private Events",
+  title: {
+    default:
+      "Savoury Soirée | Premium Catering Services in Delhi NCR - Luxury Weddings, Corporate & Private Events",
+    template: "%s | Savoury Soirée",
+  },
   description:
-    "Discover Savoury Soirée, a leading catering service provider in Delhi NCR specializing in luxury weddings, corporate events, private parties, and international cuisine. Enjoy customized menus, exceptional service, and unforgettable dining experiences tailored to your event.",
+    "Savoury Soirée offers premium catering for weddings, corporate gatherings, and private parties in Delhi NCR. Experience customized menus and exquisite service.",
   keywords: [
     "Savoury Soiree",
-    "catering",
-    "premium catering",
-    "wedding catering",
-    "corporate catering",
-    "luxury events",
-    "Delhi NCR catering",
-    "private parties",
-    "international cuisine",
-    "savourysoirée"
-
-  ],
-  authors: [
-    { name: "Savoury Soiree", url: "https://www.savourysoirée.com/about" }
+    "Delhi catering",
+    "luxury catering",
+    "event catering",
+    "wedding food",
+    "private events",
+    "corporate parties",
+    "international cuisine Delhi",
+    "Savoury Soiree",
+    "luxury catering Delhi NCR",
+    "premium wedding catering",
+    "corporate catering Delhi",
+    "private party catering",
+    "gourmet event food",
+    "custom event menus",
+    "international cuisine caterers",
+    "buffet catering Delhi",
+    "top Delhi caterers",
+    "outdoor catering events",
+    "five star catering Delhi",
+    "caterers for engagement",
+    "cocktail party catering",
+    "birthday catering services",
+    "event planners Delhi NCR",
+    "south Delhi caterers",
+    "Noida Gurgaon catering",
+    "Delhi catering services",
+    "sustainable catering Delhi"
   ],
   applicationName: "Savoury Soirée",
+  authors: [
+    {
+      name: "Savoury Soirée",
+      url: "https://www.savourysoirée.com/about",
+    },
+  ],
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
 
-  // OpenGraph Tags for social sharing (e.g., Facebook, LinkedIn)
   openGraph: {
-    title: "Savoury Soiree: Premium Catering Services in Delhi NCR",
-    description:
-      "Experience exceptional catering for luxury weddings, corporate events, and private parties with Savoury Soiree. Tailored menus and top-notch service for an unforgettable event.",
-    url: "https://www.savourysoirée.com/",
     type: "website",
     locale: "en_US",
+    url: "https://www.savourysoirée.com/",
     siteName: "Savoury Soirée",
+    title: "Savoury Soirée | Luxury Catering in Delhi NCR",
+    description:
+      "Tailored catering for weddings, corporate events, and private parties. Discover our gourmet menus and personalized service.",
     images: [
       {
-        url: "/Logo.png",
+        url: "https://www.savourysoirée.com/Logo.png",
         width: 800,
         height: 600,
-        alt: "Premium Catering Service"
-      }
-    ]
+        alt: "Savoury Soirée Catering Logo",
+      },
+    ],
   },
 
-  // Twitter Card Tags for enhanced Twitter sharing
   twitter: {
     card: "summary_large_image",
-    title: "Savoury Soirée: Premium Catering Services in Delhi NCR",
+    title: "Savoury Soirée | Premium Catering in Delhi NCR",
     description:
-      "Luxury weddings, corporate events, and private parties catered with excellence. Discover our tailored menus and top-notch service.",
-    site: "@savorysoiree",    // Replace with your Twitter username
-    creator: "@savorysoiree", // Replace with your Twitter handle
-    images: ["/Logo.png"]
+      "Elegant and personalized catering solutions for weddings, corporate events & more.",
+    site: "@savorysoiree",
+    creator: "@savorysoiree",
+    images: ["https://www.savourysoirée.com/Logo.png"],
   },
 
-  // Robots tag to guide search engine crawling and indexing
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
+      "max-snippet": -1,
       "max-image-preview": "large",
-      "max-snippet": -1
-    }
+      "max-video-preview": -1,
+    },
   },
 
-  // Icons and manifest for progressive web app (PWA) support and favicon setup
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png"
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/Metadata.json",
 
-  // Viewport settings for responsive design
-  // viewport: "width=device-width, initial-scale=1",
-
-  // Additional Meta Tags for broader audience targeting
   other: {
     "msapplication-TileColor": "#ffffff",
-    "msapplication-TileImage": "/mstile-144x144.png",
-    "apple-mobile-web-app-title": "Savoury Soiree",
-    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-title": "Savoury Soirée",
     "apple-mobile-web-app-status-bar-style": "default",
     "distribution": "global",
     "rating": "general",
     "revisit-after": "7 days",
-    "og:image:alt": "Premium Catering Service by Savoury Soiree",
-    "og:site_name": "Savoury Soirée",
+    "og:image:alt": "Savoury Soirée Catering Logo",
     "geo.region": "IN-DL",
     "geo.placename": "Delhi",
     "geo.position": "28.6139;77.2090",
-    "ICBM": "28.6139, 77.2090",
-    // "google-site-verification": "your-google-site-verification-code"
-  }
+    "ICBM": "28.6139,77.2090",
+    // "google-site-verification": "XXXX",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="max-w-screen overflow-x-hidden min-h-screen flex flex-col font-inter bg-[#ecece2]">
+    <html lang="en" dir="ltr" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        {/* Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Savoury Soirée",
+              url: "https://www.savourysoirée.com",
+              logo: "https://www.savourysoirée.com/Logo.png",
+              sameAs: [
+                "https://www.instagram.com/thesavourysoiree",
+              ],
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Delhi",
+                addressRegion: "DL",
+                addressCountry: "IN",
+              },
+            }),
+          }}
+        />
+      </head>
+      <body className="antialiased bg-[#ecece2] text-gray-900">
+        <div className="max-w-screen overflow-x-hidden min-h-screen flex flex-col">
           <Header />
-          {children}
+          <main className="flex-grow">{children}</main>
           <Footer />
         </div>
       </body>

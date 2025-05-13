@@ -1,10 +1,4 @@
-
-
-// import { useEffect } from "react";
 import Image from "next/image";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import Head from "next/head";
 import { Metadata } from "next";
 import metadataobj from "@/app/Metadata.json";
 export const metadata: Metadata = metadataobj.event;
@@ -12,56 +6,9 @@ import defaultViewport from "@/GlobalComponent/viewportConfig";
 export const viewport = defaultViewport;
 
 const EventHome = () => {
-  // useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     AOS.init({ duration: 500 });
-  //   }
-  // }, []);
 
   return (
     <>
-      {/* <Head>
-        <title>Premier Catering Services in Delhi - Corporate Events, Weddings & More</title>
-        <meta name="description" content="Top-rated catering services in Delhi for corporate events, weddings, birthdays, and social gatherings. Offering customized menus with authentic Indian and international cuisine." />
-        <meta name="keywords" content="delhi catering, corporate catering delhi, wedding catering services, birthday party catering, event catering delhi, international cuisine delhi" />
-        <link rel="canonical" href="https://yourwebsite.com/events" />
-        <meta property="og:title" content="Premier Catering Services in Delhi - Corporate Events, Weddings & More" />
-        <meta property="og:description" content="Top-rated catering services in Delhi for corporate events, weddings, birthdays, and social gatherings. Offering customized menus with authentic Indian and international cuisine." />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_IN" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:url" content="https://yourwebsite.com/events" />
-        <meta property="og:site_name" content="Your Catering Company" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FoodService",
-              "name": "Your Catering Company",
-              "description": "Top-rated catering services in Delhi for corporate events, weddings, birthdays, and social gatherings.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Delhi",
-                "addressRegion": "Delhi NCR",
-                "addressCountry": "IN"
-              },
-              "servesCuisine": ["Indian", "International"],
-              "priceRange": "₹₹-₹₹₹",
-              "serviceArea": {
-                "@type": "GeoCircle",
-                "geoMidpoint": {
-                  "@type": "GeoCoordinates",
-                  "latitude": "28.6139",
-                  "longitude": "77.2090"
-                },
-                "geoRadius": "50"
-              }
-            })
-          }}
-        />
-      </Head> */}
 
       <main className="event-container">
         <h1 className="sr-only">Premier Catering Services in Delhi</h1>

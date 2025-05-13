@@ -10,7 +10,7 @@ const getPageTitle = (pathname: string) => {
     "/services": "Services"
   };
 
-  console.log( pathMap[pathname] || pathname.slice(1).replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()));
+  // console.log( pathMap[pathname] || pathname.slice(1).replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()));
   return pathMap[pathname] || pathname.slice(1).replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
 };
 

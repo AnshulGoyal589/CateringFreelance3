@@ -9,11 +9,6 @@ import defaultViewport from "@/GlobalComponent/viewportConfig";
 export const viewport = defaultViewport;
 
 const AboutPage = () => {
-  // useEffect(() => {
-  //   if (setPreview) {
-  //     setPreview("About Us");
-  //   }
-  // }, [setPreview]);
 
   return (
     <div 
@@ -62,26 +57,5 @@ const AboutPage = () => {
     </div>
   );
 };
-
-// Metadata for SEO
-// export const metadata: Metadata = {
-//   title: 'About Us | Our Story, Vision, and Commitment',
-//   description: 'Discover our journey, passion, and commitment to delivering exceptional culinary experiences. Learn about our team, values, and unique approach.',
-//   keywords: [
-//     'about our restaurant', 
-//     'culinary journey', 
-//     'restaurant vision', 
-//     'our story', 
-//     'culinary expertise'
-//   ],
-//   openGraph: {
-//     title: 'About Us | Our Story, Vision, and Commitment',
-//     description: 'Discover our journey, passion, and commitment to delivering exceptional culinary experiences. Learn about our team, values, and unique approach.',
-//     type: 'website'
-//   },
-//   alternates: {
-//     canonical: '/about'
-//   }
-// };
 
 export default AboutPage;
