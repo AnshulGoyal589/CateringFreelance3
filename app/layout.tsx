@@ -26,33 +26,42 @@ export const metadata: Metadata = {
   description:
     "Savoury Soirée offers premium catering for weddings, corporate gatherings, and private parties in Delhi NCR. Experience customized menus and exquisite service.",
   keywords: [
-    "Savoury Soiree",
+    "Savoury Soirée",
     "Delhi catering",
     "luxury catering",
-    "event catering",
-    "wedding food",
-    "private events",
-    "corporate parties",
-    "international cuisine Delhi",
-    "Savoury Soiree",
-    "luxury catering Delhi NCR",
     "premium wedding catering",
     "corporate catering Delhi",
     "private party catering",
-    "gourmet event food",
+    "event catering",
     "custom event menus",
-    "international cuisine caterers",
-    "buffet catering Delhi",
-    "top Delhi caterers",
-    "outdoor catering events",
+    "gourmet event food",
     "five star catering Delhi",
-    "caterers for engagement",
+
+    "live counters catering",
+    "buffet setup catering",
+    "barbeque catering Delhi",
+    "continental food Delhi",
+    "Indian cuisine catering",
+    "multi-cuisine buffet",
+    "Asian fusion catering",
+    "grazing table setup",
+    "luxury dessert counters",
+    "modern catering presentation",
+
+    "catering in Gurgaon",
+    "catering in Noida",
+    "South Delhi catering",
+    "Greater Noida caterers",
+    "Ghaziabad catering services",
+    "Faridabad catering solutions",
+    "Delhi NCR event caterers",
+
+    "wedding food",
     "cocktail party catering",
+    "engagement catering Delhi",
     "birthday catering services",
+    "outdoor catering events",
     "event planners Delhi NCR",
-    "south Delhi caterers",
-    "Noida Gurgaon catering",
-    "Delhi catering services",
     "sustainable catering Delhi"
   ],
   applicationName: "Savoury Soirée",
@@ -70,7 +79,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.savourysoirée.com/",
     siteName: "Savoury Soirée",
-    title: "Savoury Soirée | Luxury Catering in Delhi NCR",
+    title: "Savoury Soiree | Best Catering Services in Delhi, Noida, Gurgaon & Chandigarh",
     description:
       "Tailored catering for weddings, corporate events, and private parties. Discover our gourmet menus and personalized service.",
     images: [
@@ -85,7 +94,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Savoury Soirée | Premium Catering in Delhi NCR",
+    title: "Savoury Soiree | Best Catering Services in Delhi, Noida, Gurgaon & Chandigarh",
     description:
       "Elegant and personalized catering solutions for weddings, corporate events & more.",
     site: "@savorysoiree",
@@ -146,18 +155,49 @@ export default function RootLayout({
               name: "Savoury Soirée",
               url: "https://www.savourysoirée.com",
               logo: "https://www.savourysoirée.com/Logo.png",
-              sameAs: [
-                "https://www.instagram.com/thesavourysoiree",
+              sameAs: ["https://www.instagram.com/thesavourysoiree"],
+              location: [
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Delhi",
+                  addressRegion: "DL",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Gurgaon",
+                  addressRegion: "HR",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Noida",
+                  addressRegion: "UP",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Faridabad",
+                  addressRegion: "HR",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Ghaziabad",
+                  addressRegion: "UP",
+                  addressCountry: "IN",
+                },
+                {
+                  "@type": "PostalAddress",
+                  addressLocality: "Greater Noida",
+                  addressRegion: "UP",
+                  addressCountry: "IN",
+                },
               ],
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Delhi",
-                addressRegion: "DL",
-                addressCountry: "IN",
-              },
             }),
           }}
         />
+
       </head>
       <body className="antialiased bg-[#ecece2] text-gray-900">
         <div className="max-w-screen overflow-x-hidden min-h-screen flex flex-col">
