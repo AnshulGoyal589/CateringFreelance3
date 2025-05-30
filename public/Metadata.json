@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Savoury Soiree | Best Catering Service for Events, Weddings & Celebrations",
-    "description": "Savoury Soiree offers authentic, premium catering for weddings, corporate events, private parties, and celebrations. Discover exquisite menus and exceptional service that transform your event into an unforgettable experience.",
+    "title": "Savoury Soiree | India's Best Luxury Catering for Weddings & Events",
+    "description": "From lavish weddings to intimate celebrations, Savoury Soiree delivers premium catering with exquisite cuisine, seamless service, and unforgettable experiences across India.",
     "keywords": [
       "catering services",
       "wedding catering",
@@ -10,124 +10,150 @@
       "premium catering",
       "delicious food",
       "event catering",
-      "celebration catering"
+      "celebration catering",
+      "catering in delhi",
+      "best catering services in india",
+      "wedding caterer",
+      "party catering",
+      "home catering",
+      "best party catering",
+      "birthday catering",
+      "engagement catering",
+      "corporate catering",
+      "food service in delhi",
+      "food for groups in delhi",
+      "luxury catering in india",
+      "luxury catering in delhi",
+      "catering in noida",
+      "catering in gurgaon",
+      "catering in chandigarh",
+      "best catering in noida",
+      "best catering in gurgaon",
+      "best catering in chandigarh",
+      "wedding catering in noida",
+      "wedding catering in gurgaon",
+      "wedding catering in chandigarh"
     ],
     "openGraph": {
-      "title": "Savoury Soiree | Premium Catering Services for All Occasions",
-      "description": "Experience top-notch catering for weddings, corporate events, and more. Our award-winning chefs craft menus that delight every palate.",
+      "title": "Savoury Soiree | India’s Finest Catering for Events & Weddings",
+      "description": "Discover luxury catering with chef-curated menus, tailored service, and spectacular presentation. Make your event unforgettable with Savoury Soiree.",
       "type": "website",
       "locale": "en_US",
       "image": "/Logo.png"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "Savoury Soiree | Premium Catering for Every Occasion",
-      "description": "Unforgettable catering experiences for weddings, corporate events, and private parties.",
+      "title": "Savoury Soiree | Elite Catering Services Across India",
+      "description": "Chef-curated cuisine and exceptional service for weddings, events, and private celebrations.",
       "image": "/Logo.png"
     }
   },
   "about": {
-    "title": "About Savoury Soiree | Our Story & Culinary Excellence",
-    "description": "Discover the journey of Savoury Soiree, where culinary passion meets exceptional service. Learn about our history, our team of expert chefs, and our commitment to quality in every dish.",
+    "title": "About Savoury Soiree | Where Culinary Passion Meets Perfection",
+    "description": "Get to know the story behind Savoury Soiree—our values, culinary philosophy, expert chefs, and dedication to delivering unforgettable catering across India.",
     "keywords": [
       "about catering",
       "our story",
-      "culinary excellence",
-      "catering history",
+      "culinary journey",
+      "premium catering",
       "expert chefs",
-      "quality service",
-      "food passion"
+      "top catering brand",
+      "chef-driven service",
+      "luxury food experience"
     ],
     "openGraph": {
-      "title": "About Us | Savoury Soiree - Culinary Excellence",
-      "description": "Get to know our story, our values, and our passion for delivering exceptional catering experiences that leave a lasting impression.",
+      "title": "About Us | Savoury Soiree – India’s Culinary Experts",
+      "description": "Dive into the roots of Savoury Soiree – our passion, people, and promise to redefine catering in India.",
       "type": "website",
       "locale": "en_US",
       "image": "/Logo.png"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "About Savoury Soiree | Our Culinary Journey",
-      "description": "Learn more about our passion for food, our expert team, and our commitment to creating unforgettable catering experiences.",
+      "title": "Savoury Soiree | Our Story of Culinary Excellence",
+      "description": "From passion to plate – meet the people and philosophy behind India’s top catering brand.",
       "image": "/Logo.png"
     }
   },
   "services": {
-    "title": "Premium Catering Services | Weddings, Corporate Events & Private Parties",
-    "description": "Explore our range of catering services tailored for weddings, corporate events, private parties, and more. From gourmet menus to impeccable service, we ensure every event is a memorable celebration.",
+    "title": "Our Catering Services | Luxury Menus for Weddings & Events",
+    "description": "Explore our catering solutions tailored for luxury weddings, high-end corporate events, private gatherings, and special occasions. Designed for elegance, taste, and hospitality.",
     "keywords": [
       "catering services",
       "wedding catering",
-      "corporate catering",
+      "corporate events",
       "private party catering",
+      "chef curated menus",
+      "luxury buffet",
       "event catering",
-      "gourmet food",
-      "professional chefs",
-      "luxury catering"
+      "celebration food",
+      "high-end food service"
     ],
     "openGraph": {
-      "title": "Premium Catering Services | Savoury Soiree",
-      "description": "Tailored catering solutions for weddings, corporate events, and private parties. Enjoy gourmet menus, professional service, and a culinary experience like no other.",
+      "title": "Savoury Soiree | Premium Catering Services Across India",
+      "description": "Custom catering crafted with passion. Explore our services for weddings, parties, and events nationwide.",
       "type": "website",
       "locale": "en_US",
       "image": "/Logo.png"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "Premium Catering Services",
-      "description": "Tailored catering for every event. Discover our gourmet menus and professional service.",
+      "title": "India’s Best Catering Services | Savoury Soiree",
+      "description": "Gourmet food, artistic presentation, and flawless execution — tailored to your event.",
       "image": "/Logo.png"
     }
   },
   "event": {
-    "title": "Event Catering Services | Exquisite Culinary Experiences",
-    "description": "Transform your events with our exquisite event catering services. Whether it’s a corporate gathering, wedding, or private celebration, our culinary team delivers premium flavors and exceptional presentation.",
+    "title": "Event Catering by Savoury Soiree | Redefining Culinary Experiences",
+    "description": "Host exceptional events with Savoury Soiree’s luxury catering. We offer bespoke menus, elegant setups, and personalized service across India.",
     "keywords": [
       "event catering",
-      "corporate event catering",
-      "wedding catering",
-      "private event catering",
-      "luxury catering",
-      "culinary experiences",
-      "gourmet event food"
+      "corporate catering",
+      "wedding events",
+      "party food service",
+      "catering for celebrations",
+      "pan India catering",
+      "luxury event food",
+      "event planning with catering"
     ],
     "openGraph": {
-      "title": "Event Catering Services | Savoury Soiree",
-      "description": "Elevate your events with our luxury catering services. Specializing in corporate events, weddings, and private celebrations that impress.",
+      "title": "Event Catering Services | Luxury Events by Savoury Soiree",
+      "description": "We deliver elegance in every bite. Explore our event catering for corporate and private occasions across India.",
       "type": "website",
       "locale": "en_US",
       "image": "/Logo.png"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "Event Catering Services",
-      "description": "Luxury event catering for weddings, corporate events, and private parties.",
+      "title": "Savoury Soiree | Catering for Events Across India",
+      "description": "Premium event catering with unforgettable food and flawless presentation.",
       "image": "/Logo.png"
     }
   },
   "contactus": {
-    "title": "Contact Us | Connect with Savoury Soiree for Exceptional Catering",
-    "description": "Reach out to Savoury Soiree for all your catering needs. Whether you're planning a wedding, corporate event, or private party, our team is ready to make your event spectacular.",
+    "title": "Contact Savoury Soiree | Plan Your Perfect Event Today",
+    "description": "Reach out to our team for personalized catering consultation. Let Savoury Soiree help you design the culinary experience your guests will remember.",
     "keywords": [
-      "contact us",
-      "catering services",
-      "wedding catering",
-      "corporate catering",
-      "event inquiries",
-      "premium catering",
-      "customer support"
+      "contact catering service",
+      "book catering",
+      "event enquiry",
+      "luxury food consultation",
+      "chef catering team",
+      "premium catering booking",
+      "talk to caterer",
+      "get in touch catering"
     ],
     "openGraph": {
-      "title": "Contact Savoury Soiree",
-      "description": "Get in touch with us to start planning your next event with our premium catering services and personalized support.",
+      "title": "Let’s Talk Food | Contact Savoury Soiree Today",
+      "description": "Book a luxury catering experience with Savoury Soiree. Talk to our experts today.",
       "type": "website",
       "locale": "en_US",
       "image": "/Logo.png"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "Contact Savoury Soiree",
-      "description": "Connect with us for premium catering services for weddings, corporate events, and private parties.",
+      "title": "Connect with Savoury Soiree | Plan Your Event",
+      "description": "Contact our expert team and plan a flawless, flavour-packed event.",
       "image": "/Logo.png"
     }
   }
